@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7CAA4C1952C5100051981F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA4B1952C5100051981F /* Foundation.framework */; };
+		7E7CAA4E1952C5100051981F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA4D1952C5100051981F /* CoreGraphics.framework */; };
+		7E7CAA501952C5100051981F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA4F1952C5100051981F /* UIKit.framework */; };
+		7E7CAA561952C5100051981F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CAA541952C5100051981F /* InfoPlist.strings */; };
+		7E7CAA581952C5100051981F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA571952C5100051981F /* main.m */; };
+		7E7CAA5C1952C5100051981F /* ttb_classprefixAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA5B1952C5100051981F /* ttb_classprefixAppDelegate.m */; };
+		7E7CAA5F1952C5100051981F /* ttb_classprefixRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA5E1952C5100051981F /* ttb_classprefixRootViewController.m */; };
+		7E7CAA621952C5100051981F /* ttb_classprefixDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA611952C5100051981F /* ttb_classprefixDataViewController.m */; };
+		7E7CAA651952C5100051981F /* ttb_classprefixModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA641952C5100051981F /* ttb_classprefixModelController.m */; };
+		7E7CAA681952C5100051981F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CAA661952C5100051981F /* Main_iPhone.storyboard */; };
+		7E7CAA6B1952C5100051981F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CAA691952C5100051981F /* Main_iPad.storyboard */; };
+		7E7CAA6D1952C5100051981F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CAA6C1952C5100051981F /* Images.xcassets */; };
+		7E7CAA741952C5100051981F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA731952C5100051981F /* XCTest.framework */; };
+		7E7CAA751952C5100051981F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA4B1952C5100051981F /* Foundation.framework */; };
+		7E7CAA761952C5100051981F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7CAA4F1952C5100051981F /* UIKit.framework */; };
+		7E7CAA7E1952C5100051981F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CAA7C1952C5100051981F /* InfoPlist.strings */; };
+		7E7CAA801952C5100051981F /* tap_the_buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CAA7F1952C5100051981F /* tap_the_buttonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7CAA771952C5100051981F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7CAA401952C5100051981F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7CAA471952C5100051981F;
+			remoteInfo = "tap-the-button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E7CAA481952C5100051981F /* tap-the-button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tap-the-button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7CAA4B1952C5100051981F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E7CAA4D1952C5100051981F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E7CAA4F1952C5100051981F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E7CAA531952C5100051981F /* tap-the-button-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tap-the-button-Info.plist"; sourceTree = "<group>"; };
+		7E7CAA551952C5100051981F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E7CAA571952C5100051981F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E7CAA591952C5100051981F /* tap-the-button-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tap-the-button-Prefix.pch"; sourceTree = "<group>"; };
+		7E7CAA5A1952C5100051981F /* ttb_classprefixAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttb_classprefixAppDelegate.h; sourceTree = "<group>"; };
+		7E7CAA5B1952C5100051981F /* ttb_classprefixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttb_classprefixAppDelegate.m; sourceTree = "<group>"; };
+		7E7CAA5D1952C5100051981F /* ttb_classprefixRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttb_classprefixRootViewController.h; sourceTree = "<group>"; };
+		7E7CAA5E1952C5100051981F /* ttb_classprefixRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttb_classprefixRootViewController.m; sourceTree = "<group>"; };
+		7E7CAA601952C5100051981F /* ttb_classprefixDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttb_classprefixDataViewController.h; sourceTree = "<group>"; };
+		7E7CAA611952C5100051981F /* ttb_classprefixDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttb_classprefixDataViewController.m; sourceTree = "<group>"; };
+		7E7CAA631952C5100051981F /* ttb_classprefixModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttb_classprefixModelController.h; sourceTree = "<group>"; };
+		7E7CAA641952C5100051981F /* ttb_classprefixModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttb_classprefixModelController.m; sourceTree = "<group>"; };
+		7E7CAA671952C5100051981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7E7CAA6A1952C5100051981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7E7CAA6C1952C5100051981F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E7CAA721952C5100051981F /* tap-the-buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tap-the-buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7CAA731952C5100051981F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E7CAA7B1952C5100051981F /* tap-the-buttonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tap-the-buttonTests-Info.plist"; sourceTree = "<group>"; };
+		7E7CAA7D1952C5100051981F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E7CAA7F1952C5100051981F /* tap_the_buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tap_the_buttonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7CAA451952C5100051981F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA4E1952C5100051981F /* CoreGraphics.framework in Frameworks */,
+				7E7CAA501952C5100051981F /* UIKit.framework in Frameworks */,
+				7E7CAA4C1952C5100051981F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7CAA6F1952C5100051981F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA741952C5100051981F /* XCTest.framework in Frameworks */,
+				7E7CAA761952C5100051981F /* UIKit.framework in Frameworks */,
+				7E7CAA751952C5100051981F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7CAA3F1952C5100051981F = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA511952C5100051981F /* tap-the-button */,
+				7E7CAA791952C5100051981F /* tap-the-buttonTests */,
+				7E7CAA4A1952C5100051981F /* Frameworks */,
+				7E7CAA491952C5100051981F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7CAA491952C5100051981F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA481952C5100051981F /* tap-the-button.app */,
+				7E7CAA721952C5100051981F /* tap-the-buttonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7CAA4A1952C5100051981F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA4B1952C5100051981F /* Foundation.framework */,
+				7E7CAA4D1952C5100051981F /* CoreGraphics.framework */,
+				7E7CAA4F1952C5100051981F /* UIKit.framework */,
+				7E7CAA731952C5100051981F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E7CAA511952C5100051981F /* tap-the-button */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA5A1952C5100051981F /* ttb_classprefixAppDelegate.h */,
+				7E7CAA5B1952C5100051981F /* ttb_classprefixAppDelegate.m */,
+				7E7CAA5D1952C5100051981F /* ttb_classprefixRootViewController.h */,
+				7E7CAA5E1952C5100051981F /* ttb_classprefixRootViewController.m */,
+				7E7CAA601952C5100051981F /* ttb_classprefixDataViewController.h */,
+				7E7CAA611952C5100051981F /* ttb_classprefixDataViewController.m */,
+				7E7CAA631952C5100051981F /* ttb_classprefixModelController.h */,
+				7E7CAA641952C5100051981F /* ttb_classprefixModelController.m */,
+				7E7CAA661952C5100051981F /* Main_iPhone.storyboard */,
+				7E7CAA691952C5100051981F /* Main_iPad.storyboard */,
+				7E7CAA6C1952C5100051981F /* Images.xcassets */,
+				7E7CAA521952C5100051981F /* Supporting Files */,
+			);
+			path = "tap-the-button";
+			sourceTree = "<group>";
+		};
+		7E7CAA521952C5100051981F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA531952C5100051981F /* tap-the-button-Info.plist */,
+				7E7CAA541952C5100051981F /* InfoPlist.strings */,
+				7E7CAA571952C5100051981F /* main.m */,
+				7E7CAA591952C5100051981F /* tap-the-button-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7CAA791952C5100051981F /* tap-the-buttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA7F1952C5100051981F /* tap_the_buttonTests.m */,
+				7E7CAA7A1952C5100051981F /* Supporting Files */,
+			);
+			path = "tap-the-buttonTests";
+			sourceTree = "<group>";
+		};
+		7E7CAA7A1952C5100051981F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CAA7B1952C5100051981F /* tap-the-buttonTests-Info.plist */,
+				7E7CAA7C1952C5100051981F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7CAA471952C5100051981F /* tap-the-button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7CAA831952C5100051981F /* Build configuration list for PBXNativeTarget "tap-the-button" */;
+			buildPhases = (
+				7E7CAA441952C5100051981F /* Sources */,
+				7E7CAA451952C5100051981F /* Frameworks */,
+				7E7CAA461952C5100051981F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tap-the-button";
+			productName = "tap-the-button";
+			productReference = 7E7CAA481952C5100051981F /* tap-the-button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7CAA711952C5100051981F /* tap-the-buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7CAA861952C5100051981F /* Build configuration list for PBXNativeTarget "tap-the-buttonTests" */;
+			buildPhases = (
+				7E7CAA6E1952C5100051981F /* Sources */,
+				7E7CAA6F1952C5100051981F /* Frameworks */,
+				7E7CAA701952C5100051981F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7CAA781952C5100051981F /* PBXTargetDependency */,
+			);
+			name = "tap-the-buttonTests";
+			productName = "tap-the-buttonTests";
+			productReference = 7E7CAA721952C5100051981F /* tap-the-buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7CAA401952C5100051981F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "ttb-classprefix";
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "AM2PM Consulting";
+				TargetAttributes = {
+					7E7CAA711952C5100051981F = {
+						TestTargetID = 7E7CAA471952C5100051981F;
+					};
+				};
+			};
+			buildConfigurationList = 7E7CAA431952C5100051981F /* Build configuration list for PBXProject "tap-the-button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7CAA3F1952C5100051981F;
+			productRefGroup = 7E7CAA491952C5100051981F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7CAA471952C5100051981F /* tap-the-button */,
+				7E7CAA711952C5100051981F /* tap-the-buttonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7CAA461952C5100051981F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA6B1952C5100051981F /* Main_iPad.storyboard in Resources */,
+				7E7CAA6D1952C5100051981F /* Images.xcassets in Resources */,
+				7E7CAA681952C5100051981F /* Main_iPhone.storyboard in Resources */,
+				7E7CAA561952C5100051981F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7CAA701952C5100051981F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA7E1952C5100051981F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7CAA441952C5100051981F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA621952C5100051981F /* ttb_classprefixDataViewController.m in Sources */,
+				7E7CAA5C1952C5100051981F /* ttb_classprefixAppDelegate.m in Sources */,
+				7E7CAA581952C5100051981F /* main.m in Sources */,
+				7E7CAA5F1952C5100051981F /* ttb_classprefixRootViewController.m in Sources */,
+				7E7CAA651952C5100051981F /* ttb_classprefixModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7CAA6E1952C5100051981F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CAA801952C5100051981F /* tap_the_buttonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7CAA781952C5100051981F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7CAA471952C5100051981F /* tap-the-button */;
+			targetProxy = 7E7CAA771952C5100051981F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7CAA541952C5100051981F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7CAA551952C5100051981F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E7CAA661952C5100051981F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7CAA671952C5100051981F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7CAA691952C5100051981F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7CAA6A1952C5100051981F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7CAA7C1952C5100051981F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7CAA7D1952C5100051981F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7CAA811952C5100051981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7CAA821952C5100051981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7CAA841952C5100051981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tap-the-button/tap-the-button-Prefix.pch";
+				INFOPLIST_FILE = "tap-the-button/tap-the-button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E7CAA851952C5100051981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tap-the-button/tap-the-button-Prefix.pch";
+				INFOPLIST_FILE = "tap-the-button/tap-the-button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E7CAA871952C5100051981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tap-the-button.app/tap-the-button";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tap-the-button/tap-the-button-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tap-the-buttonTests/tap-the-buttonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E7CAA881952C5100051981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tap-the-button.app/tap-the-button";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tap-the-button/tap-the-button-Prefix.pch";
+				INFOPLIST_FILE = "tap-the-buttonTests/tap-the-buttonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7CAA431952C5100051981F /* Build configuration list for PBXProject "tap-the-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7CAA811952C5100051981F /* Debug */,
+				7E7CAA821952C5100051981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7CAA831952C5100051981F /* Build configuration list for PBXNativeTarget "tap-the-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7CAA841952C5100051981F /* Debug */,
+				7E7CAA851952C5100051981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7CAA861952C5100051981F /* Build configuration list for PBXNativeTarget "tap-the-buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7CAA871952C5100051981F /* Debug */,
+				7E7CAA881952C5100051981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7CAA401952C5100051981F /* Project object */;
+}
